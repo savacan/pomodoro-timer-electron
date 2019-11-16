@@ -59,3 +59,10 @@ typings/
 
 # next.js build output
 .next
+
+# ------------------
+# original settings  
+# ------------------
+
+# nodenv 
+.node-version
