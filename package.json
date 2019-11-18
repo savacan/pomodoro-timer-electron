@@ -1,0 +1,19 @@
+{
+  "name": "pomodoro-timer-electron",
+  "version": "1.0.0",
+  "description": "pomodoro-timerをelectronで作ってみるやつ。   最終目標はローカルで動きながらslackにlogを投稿するapp。   とりあえずlocalで動作するpomodoro-timerを作る。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/savacan/pomodoro-timer-electron.git"
+  },
+  "author": "savacan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/savacan/pomodoro-timer-electron/issues"
+  },
+  "homepage": "https://github.com/savacan/pomodoro-timer-electron#readme"
+}
