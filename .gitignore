@@ -64,3 +64,4 @@ typings/
 # original settings  
 # ------------------
 electron-app
+dist
