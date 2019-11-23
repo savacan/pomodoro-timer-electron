@@ -1,4 +1,4 @@
-import { BrowserWindow, app, App, } from 'electron'
+import { BrowserWindow, app, App, } from 'electron';
 
 class SampleApp {
     private mainWindow: BrowserWindow | null = null;
