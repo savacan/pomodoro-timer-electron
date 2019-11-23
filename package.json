@@ -18,9 +18,14 @@
     "url": "https://github.com/savacan/pomodoro-timer-electron/issues"
   },
   "homepage": "https://github.com/savacan/pomodoro-timer-electron#readme",
-  "dependencies": {},
+  "dependencies": {
+    "electron": "^7.1.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
   "devDependencies": {
-    "electron": "^7.1.1",
+    "@types/react": "^16.9.12",
+    "@types/react-dom": "^16.9.4",
     "electron-builder": "^21.2.0",
     "html-webpack-plugin": "^3.2.0",
     "ts-loader": "^6.2.1",
