@@ -1,4 +1,13 @@
 import * as React from 'react';
+import styled from '@emotion/styled';
+
+interface IStyledButton {
+    flag: boolean;
+}
+
+const StyledButton = styled.button<IStyledButton>`
+    color: ${({flag}) => (flag ? 'black' : 'red')};
+`;
 
 export const HelloWorld: React.FC = () => {
     const [state, setState] = React.useState<boolean>(true);
@@ -12,9 +21,9 @@ export const HelloWorld: React.FC = () => {
                 {state ? 'Happy' : 'Dark'}
                 World
             </h1>
-            <button type="button" onClick={toggle}>
+            <StyledButton type="button" onClick={toggle} flag={state}>
                 toggle
-            </button>
+            </StyledButton>
         </div>
     );
 };

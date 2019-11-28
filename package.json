@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/savacan/pomodoro-timer-electron#readme",
   "dependencies": {
+    "@emotion/core": "^10.0.22",
+    "@emotion/styled": "^10.0.23",
     "electron": "^7.1.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
